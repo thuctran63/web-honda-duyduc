@@ -381,7 +381,7 @@ useEffect(() => {
                   </>
                 ) : (
                   <div className="text-center py-6 text-gray-400 text-xs sm:text-sm bg-gray-50 rounded-lg border border-dashed border-gray-300">
-                    Chưa có sản phẩm. Nhấn "Thêm" để bắt đầu.
+                    Chưa có sản phẩm. Nhấn &quot;Thêm&quot; để bắt đầu.
                   </div>
                 )}
 
