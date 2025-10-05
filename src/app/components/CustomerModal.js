@@ -3,13 +3,12 @@ import React, { useState } from "react";
 import { X } from "lucide-react";
 
 export default function CustomerModal({ open, onClose }) {
-  if (!open) return null;
-
   const [form, setForm] = useState({
     name: "",
     phone: "",
     address: "",
   });
+  if (!open) return null;
 
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
